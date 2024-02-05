@@ -45,8 +45,6 @@ const Canvas = (props: CanvasProps) => {
 
       x += dx;
       y += dy;
-
-      // Uncomment the line below to see the counter in the console
     };
 
     const intervalId = setInterval(draw, 10);
